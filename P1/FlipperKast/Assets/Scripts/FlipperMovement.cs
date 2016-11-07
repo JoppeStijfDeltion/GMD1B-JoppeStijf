@@ -8,12 +8,13 @@ public class FlipperMovement : MonoBehaviour
     public float pushForce;
     private HingeJoint hinge;
 
-    // Use this for initialization
+    //krijg toegang tot hingejoint via private HingeJoint hinge
     void Start()
     {
         hinge = GetComponent<HingeJoint>();
     }
-
+    
+    //als de spatiebalk (Jump) word ingedrukt beweegt de flipper
     void FixedUpdate()
     {
         if (Input.GetButtonDown("Jump"))

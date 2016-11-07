@@ -3,10 +3,10 @@ using System.Collections;
 
 public class DZ : MonoBehaviour
 {
-    //Maakt pinball kapot
     public int levens;
     public Lives livesScript;
 
+    //bij aanraking word het gameObject met de tag "Pinball" vernietigd en gaan de levens eraf (of mogelijk erop)
     void OnCollisionEnter(Collision col)
     {
         if(col.gameObject.tag == "Pinball")

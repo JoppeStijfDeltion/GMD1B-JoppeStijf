@@ -19,6 +19,7 @@ public class PinballSpawn : MonoBehaviour
         .transform.forward * power;
     }
     //spawnpinball met de linker-muis knop
+    //als de boolean (ballSpawn) op false staat en er een bal in het spel staat spawned hij geen bal meer
     void Update()
     {
         if (Input.GetButtonDown("Fire1"))
