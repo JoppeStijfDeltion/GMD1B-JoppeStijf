@@ -1,0 +1,30 @@
+In het Project Verslag zijn alle verslagen verwerkt (StyleGuide, ProcesVerslag ETC.)
+
+
+WapenZwaard = het wapen dat ik heb gemaakt voor dit project(3DS MAX bestand)
+
+
+3D Assets = alle 3d assets die ik heb gemaakt;
+
+voor het Interieur/Exterieur:
+- Tafel
+- Wc
+- Aanrecht
+
+voor mijn persoonlijke scene (allemaal getextured met Substance Painter):
+- Gebouw
+- Schatkist
+- Coin Model
+- GebouwMeshCollider = custom mesh die ik heb gemaakt zodat de collider in mijn unity scene werkt
+en je daadwerkelijk in het gebouw kunt
+- en natuurlijk WapenZwaard
+
+Project 2 = Unity Project;
+ga naar Project 2 > Assets > Scenes > project 2 scene.unity om de scene te openen
+
+NOTE:
+
+Het is voor mij en de groep waar ik dit project mee werk niet duidelijk of we allemaal
+de groepsonderdelen in moesten leveren of dat één van de groepsleden dit moet inleveren
+(Interieur/Exterieur ETC.). Daarom heeft 1 van onze groepsleden dit gecommit en niet iedereen,
+ik hoop dat dit voldoende is.
