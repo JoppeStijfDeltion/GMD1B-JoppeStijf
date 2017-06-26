@@ -1,0 +1,185 @@
+fileFormatVersion: 2
+guid: 2e89707ee7f81f6459878a749d62f867
+timeCreated: 1498406771
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Part_accessoires_chimney_001
+    100004: Part_accessoires_chimney_002
+    100006: Part_accessoires_room_001
+    100008: Part_accessoires_room_002
+    100010: Part_accessoires_serre_001
+    100012: Part_accessoires_window_001
+    100014: Part_accessoires_window_002
+    100016: Part_accessoires_window_003
+    100018: Part_entrance_door_001
+    100020: Part_entrance_doorframe_001
+    100022: Part_entrance_fence_001
+    100024: Part_entrance_roof_001
+    100026: Part_entrance_roofOverlay_001
+    100028: Part_entrance_stairs_001
+    100030: Part_main_foundationRoof_001
+    100032: Part_main_foundationWalls_001
+    100034: Part_main_pillar_001
+    100036: Part_main_pillar_002
+    100038: Part_main_pillar_003
+    100040: Part_main_pillar_004
+    100042: Particle View 001
+    100044: PhotometricLight001
+    400000: //RootNode
+    400002: Part_accessoires_chimney_001
+    400004: Part_accessoires_chimney_002
+    400006: Part_accessoires_room_001
+    400008: Part_accessoires_room_002
+    400010: Part_accessoires_serre_001
+    400012: Part_accessoires_window_001
+    400014: Part_accessoires_window_002
+    400016: Part_accessoires_window_003
+    400018: Part_entrance_door_001
+    400020: Part_entrance_doorframe_001
+    400022: Part_entrance_fence_001
+    400024: Part_entrance_roof_001
+    400026: Part_entrance_roofOverlay_001
+    400028: Part_entrance_stairs_001
+    400030: Part_main_foundationRoof_001
+    400032: Part_main_foundationWalls_001
+    400034: Part_main_pillar_001
+    400036: Part_main_pillar_002
+    400038: Part_main_pillar_003
+    400040: Part_main_pillar_004
+    400042: Particle View 001
+    400044: PhotometricLight001
+    2300000: Part_accessoires_chimney_001
+    2300002: Part_accessoires_chimney_002
+    2300004: Part_accessoires_room_001
+    2300006: Part_accessoires_room_002
+    2300008: Part_accessoires_serre_001
+    2300010: Part_accessoires_window_001
+    2300012: Part_accessoires_window_002
+    2300014: Part_accessoires_window_003
+    2300016: Part_entrance_door_001
+    2300018: Part_entrance_doorframe_001
+    2300020: Part_entrance_fence_001
+    2300022: Part_entrance_roof_001
+    2300024: Part_entrance_roofOverlay_001
+    2300026: Part_entrance_stairs_001
+    2300028: Part_main_foundationRoof_001
+    2300030: Part_main_foundationWalls_001
+    2300032: Part_main_pillar_001
+    2300034: Part_main_pillar_002
+    2300036: Part_main_pillar_003
+    2300038: Part_main_pillar_004
+    3300000: Part_accessoires_chimney_001
+    3300002: Part_accessoires_chimney_002
+    3300004: Part_accessoires_room_001
+    3300006: Part_accessoires_room_002
+    3300008: Part_accessoires_serre_001
+    3300010: Part_accessoires_window_001
+    3300012: Part_accessoires_window_002
+    3300014: Part_accessoires_window_003
+    3300016: Part_entrance_door_001
+    3300018: Part_entrance_doorframe_001
+    3300020: Part_entrance_fence_001
+    3300022: Part_entrance_roof_001
+    3300024: Part_entrance_roofOverlay_001
+    3300026: Part_entrance_stairs_001
+    3300028: Part_main_foundationRoof_001
+    3300030: Part_main_foundationWalls_001
+    3300032: Part_main_pillar_001
+    3300034: Part_main_pillar_002
+    3300036: Part_main_pillar_003
+    3300038: Part_main_pillar_004
+    4300000: Part_entrance_fence_001
+    4300002: Part_entrance_roof_001
+    4300004: Part_entrance_roofOverlay_001
+    4300006: Part_accessoires_window_001
+    4300008: Part_main_pillar_001
+    4300010: Part_main_pillar_002
+    4300012: Part_main_pillar_004
+    4300014: Part_main_pillar_003
+    4300016: Part_accessoires_window_002
+    4300018: Part_accessoires_window_003
+    4300020: Part_accessoires_room_002
+    4300022: Part_accessoires_chimney_001
+    4300024: Part_accessoires_chimney_002
+    4300026: Part_accessoires_serre_001
+    4300028: Part_entrance_stairs_001
+    4300030: Part_entrance_doorframe_001
+    4300032: Part_entrance_door_001
+    4300034: Part_accessoires_room_001
+    4300036: Part_main_foundationWalls_001
+    4300038: Part_main_foundationRoof_001
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
