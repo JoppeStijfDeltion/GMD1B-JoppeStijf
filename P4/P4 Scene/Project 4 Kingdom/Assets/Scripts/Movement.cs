@@ -21,10 +21,6 @@ public class Movement : MonoBehaviour {
     //rennen
     public float runSpeed;
     public bool runB;
-    //stamina
-    public Text staminaText;
-    public float stamina = 100;
-    public int staminaInt;
 
     //springen
     public Vector3 jumpPower;
@@ -35,7 +31,6 @@ public class Movement : MonoBehaviour {
     public void Update()
     {
         Run();
-        Stamina();
 
         //lopen door de pijltjestoetsen in te drukken
         hor = Input.GetAxis("Horizontal");
@@ -68,51 +63,22 @@ public class Movement : MonoBehaviour {
 
     public void Run()
     {
-        //rennen door de "Fire3" (L Shift) knop in te drukken stamina hoger dan 0 is
-        if (stamina >= 0)
+        if (Input.GetButtonDown("Fire3"))
         {
-            if (Input.GetButtonDown("Fire3"))
-            {
-                walkSpeed *= runSpeed;
-            }
-
-            //wanneer de "Fire3" knop word losgelaten springt de bool op false en verkeerd
-            //walkSpeed weer in zijn originele staat met de standaard waarde
-            if (Input.GetButtonUp("Fire3"))
-            {
-                walkSpeed /= runSpeed;
-                runB = false;
-            }
-
-            if (Input.GetButton("Fire3"))
-            {
-                runB = true;
-            }
-        }
-    }
-
-    public void Stamina()
-    {
-        //stamina float word afgerond naar de dichstbijzijnde integer staminaInt
-        staminaInt = Mathf.RoundToInt(stamina);
-
-        //als er gerend word ("Fire3" word ingedrukt) gaat er 10 waarde per seconde van stamina af
-        if (runB == true)
-        {
-            if (stamina >= 1)
-            {
-                stamina -= 10 * Time.deltaTime;
-            }
+            walkSpeed *= runSpeed;
         }
 
-        //anders als er niet gerend word en de waarde van stamina is lager dan 100, 
-        //komt er elke seconde 1 waarde bij stamina bij
-        else if (runB == false)
+        //wanneer de "Fire3" knop word losgelaten springt de bool op false en verkeerd
+        //walkSpeed weer in zijn originele staat met de standaard waarde
+        if (Input.GetButtonUp("Fire3"))
         {
-            if (stamina <= 100)
-            {
-                stamina += 1 * Time.deltaTime;
-            }
+            walkSpeed /= runSpeed;
+            runB = false;
+        }
+
+        if (Input.GetButton("Fire3"))
+        {
+            runB = true;
         }
     }
 }

@@ -10,20 +10,23 @@ public class PlayerStats : MonoBehaviour {
     public int lives = 3;
     public Text livesText;
 
+    public AudioSource getHitSound;
+
     void Start()
     {
-        livesText.text = "LIVES: " + lives;
+        livesText.text = "Lives: " + lives;
     }
 
     void Update()
     {
-        livesText.text = "LIVES: " + lives;
+        livesText.text = "Lives: " + lives;
     }
 
     void OnCollisionEnter(Collision col)
     {
         if (col.collider.tag == "Enemy")
         {
+            getHitSound.Play();
             lives -= 1;
             playerPos.position = startPos.position;
         }

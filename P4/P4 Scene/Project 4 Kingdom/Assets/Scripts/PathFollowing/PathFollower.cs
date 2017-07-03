@@ -4,18 +4,22 @@ using UnityEngine;
 
 public class PathFollower : MonoBehaviour {
 
-    public Transform[] path;
+    public List<Transform> path = new List<Transform>();
     public float speed = 5.0f;
     public float reachDistance = 1.0f;
     public int currentPoint = 0;
-    Vector3 dir;
+    public Vector3 dir;
 
+    public Transform currentPointPos;
 
     void Update()
     {
-        //dir = path[currentPoint].position - transform.position;
-        float distance = Vector3.Distance (path[currentPoint].position, transform.position);
+        currentPointPos = path[currentPoint];
+        dir = currentPointPos.position - transform.position;
+        Quaternion rotation = Quaternion.LookRotation(dir);
+        transform.rotation = Quaternion.Lerp(transform.rotation, rotation, speed * Time.deltaTime);
 
+        float distance = Vector3.Distance (path[currentPoint].position, transform.position);
         transform.position = Vector3.MoveTowards (transform.position, path[currentPoint].position, Time.deltaTime * speed);
 
         if (distance <= reachDistance)
@@ -23,7 +27,7 @@ public class PathFollower : MonoBehaviour {
             currentPoint++;
         }
 
-        if(currentPoint >= path.Length)
+        if(currentPoint >= path.Capacity)
         {
             currentPoint = 0;
         }
@@ -31,9 +35,9 @@ public class PathFollower : MonoBehaviour {
 
     void OnDrawGizmos()
     {
-        if (path.Length > 0)
+        if (path.Capacity > 0)
         {
-            for (int i = 0; i < path.Length; i++)
+            for (int i = 0; i < path.Capacity; i++)
             {
                 if (path[i] != null)
                 {

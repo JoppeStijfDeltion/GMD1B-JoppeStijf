@@ -34,23 +34,27 @@ public class TheGame : MonoBehaviour {
     bool doorOpened;
 
     //Transforms voor het camera switchen
-    public Transform switchCamStatue;
-    public Transform switchCamBalcony;
-    public int switchTimes;
     public float seeRelicTime;
+    public bool seenRelic;
+    public GameObject relicObject;
 
     //verandert de staat van de text;
     public int textLevel;
 
     public ChestAnimation animationScript;
+    public AudioSource chestSound;
+    public GameObject azazelCharacter;
 
 	void Start ()
     {
-        switchTimes = 0;
+        azazelCharacter.SetActive(true);
+        relicObject.SetActive(false);
         mainCam.SetActive(true);
         switchCam.SetActive(false);
 
         textLevel = 1;
+        seenRelic = false;
+        allPickUps = true;
 	}
 	
 	void Update ()
@@ -62,11 +66,6 @@ public class TheGame : MonoBehaviour {
         if (statueLerp)
         {
             statuePos.position = Vector3.Lerp(statuePos.position, statuePosEnd.position, Time.deltaTime * lerpSpeed);
-        }
-
-        if (switched && switchTimes == 0)
-        {
-            //text voor interactie met reliek
         }
     }
 
@@ -97,8 +96,9 @@ public class TheGame : MonoBehaviour {
 
     void SwitchCam()
     {
-        if (switchCam.activeSelf && switchTimes == 1)
+        if (switchCam.activeSelf)
         {
+            azazelCharacter.SetActive(false);
             playerBody.GetComponent<Movement>().enabled = false;
             mainCam.GetComponent<CamRotation>().enabled = false;
         }
@@ -109,25 +109,17 @@ public class TheGame : MonoBehaviour {
             mainCam.GetComponent<CamRotation>().enabled = true;
         }
 
-        if (switchTimes == 0)
-        {
-            switchCam.transform.position = switchCamBalcony.position;
-            switchCam.transform.rotation = switchCamBalcony.rotation;
-        }
-
-        else if (switchTimes == 1 && switchCam.activeSelf)
+        if (seenRelic == true)
         {
             seeRelicTime += Time.deltaTime;
-
             if (seeRelicTime >= 1)
             {
-                switchCam.transform.position = switchCamStatue.position;
-                switchCam.transform.rotation = switchCamStatue.rotation;
+                switchCam.SetActive(true);
                 statueLerp = true;
             }
         }
 
-        if (seeRelicTime >= 4)
+        if (seeRelicTime >= 8)
         {
             mainCam.SetActive(true);
             switchCam.SetActive(false);
@@ -165,8 +157,9 @@ public class TheGame : MonoBehaviour {
             {
                 if (hit.collider.tag == "Relic" && allPickUps)
                 {
-                    switchTimes = 1;
                     textLevel = 4;
+                    relicObject.SetActive(true);
+                    seenRelic = true;
                 }
 
                 if (hit.collider.tag == "Door" && allPickUps)
@@ -177,7 +170,6 @@ public class TheGame : MonoBehaviour {
                     if (switched)
                     {
                         switched = false;
-                        switchCam.SetActive(true);
                     }
                 }
             }

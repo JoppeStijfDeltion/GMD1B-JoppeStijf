@@ -12,23 +12,23 @@ public class UIManager : MonoBehaviour {
 
     void Update()
     {
-        relicText.text = "RELIC PIECES: " + theGameScript.itemsInList + "/" + theGameScript.pickUps.Capacity;
+        relicText.text = "Relic Pieces: " + theGameScript.itemsInList + "/" + theGameScript.pickUps.Capacity;
 
         if (theGameScript.textLevel == 1)
         {
-            interactText.text = "FIND ALL THE RELIC PIECES!";
+            interactText.text = "Find all the relic pieces!";
         }
         else if (theGameScript.textLevel == 2)
         {
-            interactText.text = "GOOD JOB! GO TO THE CASTLE DOORS AND PRESS E TO INTERACT!";
+            interactText.text = "Good job! Go to the castle doors and press E to interact.";
         }
         else if (theGameScript.textLevel == 3)
         {
-            interactText.text = "PRESS E TO PLACE THE RELIC IN THE STAND!";
+            interactText.text = "Press E to place the relic in its stand.";
         }
         else if(theGameScript.textLevel == 4)
         {
-            interactText.text = " ";
+            interactText.text = "Storyline Completed.";
         }
     }
 
