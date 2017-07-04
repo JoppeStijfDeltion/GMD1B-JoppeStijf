@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: e715437c087a6eb42950f002c511ed66
+timeCreated: 1498939845
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: i do not trust you
+  fontNames:
+  - i do not trust you
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

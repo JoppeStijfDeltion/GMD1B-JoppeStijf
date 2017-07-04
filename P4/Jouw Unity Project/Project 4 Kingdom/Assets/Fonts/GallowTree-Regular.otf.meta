@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: efb0d1a065a4e504f8138f180ce16732
+timeCreated: 1496678336
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Gallow Tree
+  fontNames:
+  - Gallow Tree
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

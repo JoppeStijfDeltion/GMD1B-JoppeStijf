@@ -1,0 +1,692 @@
+fileFormatVersion: 2
+guid: 939055e3682282e4e903094b9a78dc0d
+timeCreated: 1498426270
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Castel_building2_wall_sides
+    100002: Castel_building2_wall_sides1
+    100004: Castle_building1_doors
+    100006: Castle_building1_top
+    100008: Castle_building1_wall_back
+    100010: Castle_building1_wall_front
+    100012: Castle_building1_wall_side
+    100014: Castle_building1_wall_side1
+    100016: Castle_building2_top_front&back
+    100018: Castle_building2_top_front&back1
+    100020: Castle_building2_top_sides
+    100022: Castle_building2_top_sides1
+    100024: Castle_building2_wall_front&back
+    100026: Castle_building2_wall_front&back1
+    100028: Castle_building3&4_top_expansion
+    100030: Castle_building3&4_top_normal
+    100032: Castle_building3&4_top_normal1
+    100034: Castle_building3&4_top_normal2
+    100036: Castle_building3&4_top_side_left
+    100038: Castle_building3&4_top_side_left1
+    100040: Castle_building3&4_top_side_right
+    100042: Castle_building3&4_wall_front&back
+    100044: Castle_building3&4_wall_front&back1
+    100046: Castle_building3&4_wall_front&back2
+    100048: Castle_building3&4_wall_front&back3
+    100050: Castle_building3&4_wall_front&back4
+    100052: Castle_building3&4_wall_side_normal
+    100054: Castle_building_wall_expansion
+    100056: Castle_extra_balcony
+    100058: Castle_extra_balcony_balk
+    100060: Castle_extra_balcony_balk1
+    100062: Castle_extra_balcony_door
+    100064: Castle_extra_battlement
+    100066: Castle_extra_chimney
+    100068: Castle_extra_dormer
+    100070: Castle_extra_dormer1
+    100072: Castle_extra_dormer2
+    100074: Castle_extra_dormer3
+    100076: Castle_extra_dormer4
+    100078: Castle_extra_dormer5
+    100080: Castle_extra_pilar
+    100082: Castle_extra_pilar1
+    100084: Castle_extra_relic_dado
+    100086: Castle_window_big
+    100088: Castle_window_big1
+    100090: Castle_window_medium
+    100092: Castle_window_medium1
+    100094: Castle_window_small
+    100096: Castle_window_small1
+    100098: Castle_window_small10
+    100100: Castle_window_small11
+    100102: Castle_window_small12
+    100104: Castle_window_small13
+    100106: Castle_window_small14
+    100108: Castle_window_small15
+    100110: Castle_window_small16
+    100112: Castle_window_small17
+    100114: Castle_window_small18
+    100116: Castle_window_small19
+    100118: Castle_window_small2
+    100120: Castle_window_small20
+    100122: Castle_window_small21
+    100124: Castle_window_small22
+    100126: Castle_window_small23
+    100128: Castle_window_small24
+    100130: Castle_window_small25
+    100132: Castle_window_small26
+    100134: Castle_window_small27
+    100136: Castle_window_small28
+    100138: Castle_window_small29
+    100140: Castle_window_small3
+    100142: Castle_window_small30
+    100144: Castle_window_small31
+    100146: Castle_window_small32
+    100148: Castle_window_small33
+    100150: Castle_window_small34
+    100152: Castle_window_small35
+    100154: Castle_window_small4
+    100156: Castle_window_small5
+    100158: Castle_window_small6
+    100160: Castle_window_small7
+    100162: Castle_window_small8
+    100164: Castle_window_small9
+    100166: //RootNode
+    400000: Castel_building2_wall_sides
+    400002: Castel_building2_wall_sides1
+    400004: Castle_building1_doors
+    400006: Castle_building1_top
+    400008: Castle_building1_wall_back
+    400010: Castle_building1_wall_front
+    400012: Castle_building1_wall_side
+    400014: Castle_building1_wall_side1
+    400016: Castle_building2_top_front&back
+    400018: Castle_building2_top_front&back1
+    400020: Castle_building2_top_sides
+    400022: Castle_building2_top_sides1
+    400024: Castle_building2_wall_front&back
+    400026: Castle_building2_wall_front&back1
+    400028: Castle_building3&4_top_expansion
+    400030: Castle_building3&4_top_normal
+    400032: Castle_building3&4_top_normal1
+    400034: Castle_building3&4_top_normal2
+    400036: Castle_building3&4_top_side_left
+    400038: Castle_building3&4_top_side_left1
+    400040: Castle_building3&4_top_side_right
+    400042: Castle_building3&4_wall_front&back
+    400044: Castle_building3&4_wall_front&back1
+    400046: Castle_building3&4_wall_front&back2
+    400048: Castle_building3&4_wall_front&back3
+    400050: Castle_building3&4_wall_front&back4
+    400052: Castle_building3&4_wall_side_normal
+    400054: Castle_building_wall_expansion
+    400056: Castle_extra_balcony
+    400058: Castle_extra_balcony_balk
+    400060: Castle_extra_balcony_balk1
+    400062: Castle_extra_balcony_door
+    400064: Castle_extra_battlement
+    400066: Castle_extra_chimney
+    400068: Castle_extra_dormer
+    400070: Castle_extra_dormer1
+    400072: Castle_extra_dormer2
+    400074: Castle_extra_dormer3
+    400076: Castle_extra_dormer4
+    400078: Castle_extra_dormer5
+    400080: Castle_extra_pilar
+    400082: Castle_extra_pilar1
+    400084: Castle_extra_relic_dado
+    400086: Castle_window_big
+    400088: Castle_window_big1
+    400090: Castle_window_medium
+    400092: Castle_window_medium1
+    400094: Castle_window_small
+    400096: Castle_window_small1
+    400098: Castle_window_small10
+    400100: Castle_window_small11
+    400102: Castle_window_small12
+    400104: Castle_window_small13
+    400106: Castle_window_small14
+    400108: Castle_window_small15
+    400110: Castle_window_small16
+    400112: Castle_window_small17
+    400114: Castle_window_small18
+    400116: Castle_window_small19
+    400118: Castle_window_small2
+    400120: Castle_window_small20
+    400122: Castle_window_small21
+    400124: Castle_window_small22
+    400126: Castle_window_small23
+    400128: Castle_window_small24
+    400130: Castle_window_small25
+    400132: Castle_window_small26
+    400134: Castle_window_small27
+    400136: Castle_window_small28
+    400138: Castle_window_small29
+    400140: Castle_window_small3
+    400142: Castle_window_small30
+    400144: Castle_window_small31
+    400146: Castle_window_small32
+    400148: Castle_window_small33
+    400150: Castle_window_small34
+    400152: Castle_window_small35
+    400154: Castle_window_small4
+    400156: Castle_window_small5
+    400158: Castle_window_small6
+    400160: Castle_window_small7
+    400162: Castle_window_small8
+    400164: Castle_window_small9
+    400166: //RootNode
+    2300000: Castel_building2_wall_sides
+    2300002: Castel_building2_wall_sides1
+    2300004: Castle_building1_doors
+    2300006: Castle_building1_top
+    2300008: Castle_building1_wall_back
+    2300010: Castle_building1_wall_front
+    2300012: Castle_building1_wall_side
+    2300014: Castle_building1_wall_side1
+    2300016: Castle_building2_top_front&back
+    2300018: Castle_building2_top_front&back1
+    2300020: Castle_building2_top_sides
+    2300022: Castle_building2_top_sides1
+    2300024: Castle_building2_wall_front&back
+    2300026: Castle_building2_wall_front&back1
+    2300028: Castle_building3&4_top_expansion
+    2300030: Castle_building3&4_top_normal
+    2300032: Castle_building3&4_top_normal1
+    2300034: Castle_building3&4_top_normal2
+    2300036: Castle_building3&4_top_side_left
+    2300038: Castle_building3&4_top_side_left1
+    2300040: Castle_building3&4_top_side_right
+    2300042: Castle_building3&4_wall_front&back
+    2300044: Castle_building3&4_wall_front&back1
+    2300046: Castle_building3&4_wall_front&back2
+    2300048: Castle_building3&4_wall_front&back3
+    2300050: Castle_building3&4_wall_front&back4
+    2300052: Castle_building3&4_wall_side_normal
+    2300054: Castle_building_wall_expansion
+    2300056: Castle_extra_balcony
+    2300058: Castle_extra_balcony_balk
+    2300060: Castle_extra_balcony_balk1
+    2300062: Castle_extra_balcony_door
+    2300064: Castle_extra_battlement
+    2300066: Castle_extra_chimney
+    2300068: Castle_extra_dormer
+    2300070: Castle_extra_dormer1
+    2300072: Castle_extra_dormer2
+    2300074: Castle_extra_dormer3
+    2300076: Castle_extra_dormer4
+    2300078: Castle_extra_dormer5
+    2300080: Castle_extra_pilar
+    2300082: Castle_extra_pilar1
+    2300084: Castle_extra_relic_dado
+    2300086: Castle_window_big
+    2300088: Castle_window_big1
+    2300090: Castle_window_medium
+    2300092: Castle_window_medium1
+    2300094: Castle_window_small
+    2300096: Castle_window_small1
+    2300098: Castle_window_small10
+    2300100: Castle_window_small11
+    2300102: Castle_window_small12
+    2300104: Castle_window_small13
+    2300106: Castle_window_small14
+    2300108: Castle_window_small15
+    2300110: Castle_window_small16
+    2300112: Castle_window_small17
+    2300114: Castle_window_small18
+    2300116: Castle_window_small19
+    2300118: Castle_window_small2
+    2300120: Castle_window_small20
+    2300122: Castle_window_small21
+    2300124: Castle_window_small22
+    2300126: Castle_window_small23
+    2300128: Castle_window_small24
+    2300130: Castle_window_small25
+    2300132: Castle_window_small26
+    2300134: Castle_window_small27
+    2300136: Castle_window_small28
+    2300138: Castle_window_small29
+    2300140: Castle_window_small3
+    2300142: Castle_window_small30
+    2300144: Castle_window_small31
+    2300146: Castle_window_small32
+    2300148: Castle_window_small33
+    2300150: Castle_window_small34
+    2300152: Castle_window_small35
+    2300154: Castle_window_small4
+    2300156: Castle_window_small5
+    2300158: Castle_window_small6
+    2300160: Castle_window_small7
+    2300162: Castle_window_small8
+    2300164: Castle_window_small9
+    3300000: Castel_building2_wall_sides
+    3300002: Castel_building2_wall_sides1
+    3300004: Castle_building1_doors
+    3300006: Castle_building1_top
+    3300008: Castle_building1_wall_back
+    3300010: Castle_building1_wall_front
+    3300012: Castle_building1_wall_side
+    3300014: Castle_building1_wall_side1
+    3300016: Castle_building2_top_front&back
+    3300018: Castle_building2_top_front&back1
+    3300020: Castle_building2_top_sides
+    3300022: Castle_building2_top_sides1
+    3300024: Castle_building2_wall_front&back
+    3300026: Castle_building2_wall_front&back1
+    3300028: Castle_building3&4_top_expansion
+    3300030: Castle_building3&4_top_normal
+    3300032: Castle_building3&4_top_normal1
+    3300034: Castle_building3&4_top_normal2
+    3300036: Castle_building3&4_top_side_left
+    3300038: Castle_building3&4_top_side_left1
+    3300040: Castle_building3&4_top_side_right
+    3300042: Castle_building3&4_wall_front&back
+    3300044: Castle_building3&4_wall_front&back1
+    3300046: Castle_building3&4_wall_front&back2
+    3300048: Castle_building3&4_wall_front&back3
+    3300050: Castle_building3&4_wall_front&back4
+    3300052: Castle_building3&4_wall_side_normal
+    3300054: Castle_building_wall_expansion
+    3300056: Castle_extra_balcony
+    3300058: Castle_extra_balcony_balk
+    3300060: Castle_extra_balcony_balk1
+    3300062: Castle_extra_balcony_door
+    3300064: Castle_extra_battlement
+    3300066: Castle_extra_chimney
+    3300068: Castle_extra_dormer
+    3300070: Castle_extra_dormer1
+    3300072: Castle_extra_dormer2
+    3300074: Castle_extra_dormer3
+    3300076: Castle_extra_dormer4
+    3300078: Castle_extra_dormer5
+    3300080: Castle_extra_pilar
+    3300082: Castle_extra_pilar1
+    3300084: Castle_extra_relic_dado
+    3300086: Castle_window_big
+    3300088: Castle_window_big1
+    3300090: Castle_window_medium
+    3300092: Castle_window_medium1
+    3300094: Castle_window_small
+    3300096: Castle_window_small1
+    3300098: Castle_window_small10
+    3300100: Castle_window_small11
+    3300102: Castle_window_small12
+    3300104: Castle_window_small13
+    3300106: Castle_window_small14
+    3300108: Castle_window_small15
+    3300110: Castle_window_small16
+    3300112: Castle_window_small17
+    3300114: Castle_window_small18
+    3300116: Castle_window_small19
+    3300118: Castle_window_small2
+    3300120: Castle_window_small20
+    3300122: Castle_window_small21
+    3300124: Castle_window_small22
+    3300126: Castle_window_small23
+    3300128: Castle_window_small24
+    3300130: Castle_window_small25
+    3300132: Castle_window_small26
+    3300134: Castle_window_small27
+    3300136: Castle_window_small28
+    3300138: Castle_window_small29
+    3300140: Castle_window_small3
+    3300142: Castle_window_small30
+    3300144: Castle_window_small31
+    3300146: Castle_window_small32
+    3300148: Castle_window_small33
+    3300150: Castle_window_small34
+    3300152: Castle_window_small35
+    3300154: Castle_window_small4
+    3300156: Castle_window_small5
+    3300158: Castle_window_small6
+    3300160: Castle_window_small7
+    3300162: Castle_window_small8
+    3300164: Castle_window_small9
+    4300000: Castle_building1_wall_front
+    4300002: Castle_building1_doors
+    4300004: Castle_building1_wall_side
+    4300006: Castle_building1_wall_back
+    4300008: Castle_building1_top
+    4300010: Castle_building2_wall_front&back
+    4300012: Castle_building3&4_wall_front&back
+    4300014: Castle_building3&4_wall_side_normal
+    4300016: Castle_extra_pilar
+    4300018: Castle_extra_balcony_balk
+    4300020: Castle_extra_balcony
+    4300022: Castel_building2_wall_sides
+    4300024: Castle_window_big
+    4300026: Castle_building3&4_top_expansion
+    4300028: Castle_building3&4_top_normal
+    4300030: Castle_window_medium
+    4300032: Castle_window_small
+    4300034: Castle_extra_dormer
+    4300036: Castle_building2_top_front&back
+    4300038: Castle_building2_top_sides
+    4300040: Castle_extra_chimney
+    4300042: Castle_extra_relic_dado
+    4300044: Castle_building3&4_top_side_left
+    4300046: Castle_window_medium1
+    4300048: Castle_extra_dormer1
+    4300050: Castle_extra_dormer2
+    4300052: Castle_extra_dormer3
+    4300054: Castle_window_small1
+    4300056: Castle_window_small2
+    4300058: Castle_window_small3
+    4300060: Castle_window_small4
+    4300062: Castle_window_small5
+    4300064: Castle_window_small6
+    4300066: Castle_window_small7
+    4300068: Castle_window_small8
+    4300070: Castle_window_small9
+    4300072: Castle_window_small10
+    4300074: Castle_window_small11
+    4300076: Castle_window_small12
+    4300078: Castle_window_small13
+    4300080: Castle_window_small14
+    4300082: Castle_window_small15
+    4300084: Castle_window_small16
+    4300086: Castle_window_small17
+    4300088: Castle_window_small18
+    4300090: Castle_window_small19
+    4300092: Castle_window_small20
+    4300094: Castle_window_small21
+    4300096: Castle_window_small22
+    4300098: Castle_window_small23
+    4300100: Castle_extra_dormer4
+    4300102: Castle_extra_dormer5
+    4300104: Castle_window_small24
+    4300106: Castle_window_small25
+    4300108: Castle_window_small26
+    4300110: Castle_window_small27
+    4300112: Castle_window_small28
+    4300114: Castle_window_small29
+    4300116: Castle_window_small30
+    4300118: Castle_window_small31
+    4300120: Castle_window_small32
+    4300122: Castle_window_small33
+    4300124: Castle_window_small34
+    4300126: Castle_window_small35
+    4300128: Castle_window_big1
+    4300130: Castle_extra_balcony_door
+    4300132: Castle_building3&4_top_side_right
+    4300134: Castle_building3&4_top_side_left1
+    4300136: Castle_extra_battlement
+    4300138: Castle_building_wall_expansion
+    4300140: Castle_building1_wall_side1
+    4300142: Castle_building3&4_wall_front&back1
+    4300144: Castle_building3&4_wall_front&back2
+    4300146: Castle_building3&4_wall_front&back3
+    4300148: Castle_building3&4_wall_front&back4
+    4300150: Castel_building2_wall_sides1
+    4300152: Castle_extra_pilar1
+    4300154: Castle_extra_balcony_balk1
+    4300156: Castle_building2_top_front&back1
+    4300158: Castle_building3&4_top_normal1
+    4300160: Castle_building3&4_top_normal2
+    4300162: Castle_building2_top_sides1
+    4300164: Castle_building2_wall_front&back1
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Castel_building2_wall_sides
+        weight: 1
+      - path: Castel_building2_wall_sides1
+        weight: 1
+      - path: Castle_building1_doors
+        weight: 1
+      - path: Castle_building1_top
+        weight: 1
+      - path: Castle_building1_wall_back
+        weight: 1
+      - path: Castle_building1_wall_front
+        weight: 1
+      - path: Castle_building1_wall_side
+        weight: 1
+      - path: Castle_building1_wall_side1
+        weight: 1
+      - path: Castle_building2_top_front&back
+        weight: 1
+      - path: Castle_building2_top_front&back1
+        weight: 1
+      - path: Castle_building2_top_sides
+        weight: 1
+      - path: Castle_building2_top_sides1
+        weight: 1
+      - path: Castle_building2_wall_front&back
+        weight: 1
+      - path: Castle_building2_wall_front&back1
+        weight: 1
+      - path: Castle_building3&4_top_expansion
+        weight: 1
+      - path: Castle_building3&4_top_normal
+        weight: 1
+      - path: Castle_building3&4_top_normal1
+        weight: 1
+      - path: Castle_building3&4_top_normal2
+        weight: 1
+      - path: Castle_building3&4_top_side_left
+        weight: 1
+      - path: Castle_building3&4_top_side_left1
+        weight: 1
+      - path: Castle_building3&4_top_side_right
+        weight: 1
+      - path: Castle_building3&4_wall_front&back
+        weight: 1
+      - path: Castle_building3&4_wall_front&back1
+        weight: 1
+      - path: Castle_building3&4_wall_front&back2
+        weight: 1
+      - path: Castle_building3&4_wall_front&back3
+        weight: 1
+      - path: Castle_building3&4_wall_front&back4
+        weight: 1
+      - path: Castle_building3&4_wall_side_normal
+        weight: 1
+      - path: Castle_building_wall_expansion
+        weight: 1
+      - path: Castle_extra_balcony
+        weight: 1
+      - path: Castle_extra_balcony_balk
+        weight: 1
+      - path: Castle_extra_balcony_balk1
+        weight: 1
+      - path: Castle_extra_balcony_door
+        weight: 1
+      - path: Castle_extra_battlement
+        weight: 1
+      - path: Castle_extra_chimney
+        weight: 1
+      - path: Castle_extra_dormer
+        weight: 1
+      - path: Castle_extra_dormer1
+        weight: 1
+      - path: Castle_extra_dormer2
+        weight: 1
+      - path: Castle_extra_dormer3
+        weight: 1
+      - path: Castle_extra_dormer4
+        weight: 1
+      - path: Castle_extra_dormer5
+        weight: 1
+      - path: Castle_extra_pilar
+        weight: 1
+      - path: Castle_extra_pilar1
+        weight: 1
+      - path: Castle_extra_relic_dado
+        weight: 1
+      - path: Castle_window_big
+        weight: 1
+      - path: Castle_window_big1
+        weight: 1
+      - path: Castle_window_medium
+        weight: 1
+      - path: Castle_window_medium1
+        weight: 1
+      - path: Castle_window_small
+        weight: 1
+      - path: Castle_window_small1
+        weight: 1
+      - path: Castle_window_small2
+        weight: 1
+      - path: Castle_window_small3
+        weight: 1
+      - path: Castle_window_small4
+        weight: 1
+      - path: Castle_window_small5
+        weight: 1
+      - path: Castle_window_small6
+        weight: 1
+      - path: Castle_window_small7
+        weight: 1
+      - path: Castle_window_small8
+        weight: 1
+      - path: Castle_window_small9
+        weight: 1
+      - path: Castle_window_small10
+        weight: 1
+      - path: Castle_window_small11
+        weight: 1
+      - path: Castle_window_small12
+        weight: 1
+      - path: Castle_window_small13
+        weight: 1
+      - path: Castle_window_small14
+        weight: 1
+      - path: Castle_window_small15
+        weight: 1
+      - path: Castle_window_small16
+        weight: 1
+      - path: Castle_window_small17
+        weight: 1
+      - path: Castle_window_small18
+        weight: 1
+      - path: Castle_window_small19
+        weight: 1
+      - path: Castle_window_small20
+        weight: 1
+      - path: Castle_window_small21
+        weight: 1
+      - path: Castle_window_small22
+        weight: 1
+      - path: Castle_window_small23
+        weight: 1
+      - path: Castle_window_small24
+        weight: 1
+      - path: Castle_window_small25
+        weight: 1
+      - path: Castle_window_small26
+        weight: 1
+      - path: Castle_window_small27
+        weight: 1
+      - path: Castle_window_small28
+        weight: 1
+      - path: Castle_window_small29
+        weight: 1
+      - path: Castle_window_small30
+        weight: 1
+      - path: Castle_window_small31
+        weight: 1
+      - path: Castle_window_small32
+        weight: 1
+      - path: Castle_window_small33
+        weight: 1
+      - path: Castle_window_small34
+        weight: 1
+      - path: Castle_window_small35
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
